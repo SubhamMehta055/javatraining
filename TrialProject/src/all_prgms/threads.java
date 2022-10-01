@@ -6,7 +6,7 @@ class MultithreadingDemo extends Thread {
 		try {
 			// Displaying the thread that is running
 			System.out.println(
-				"Thread " + Thread.currentThread().getId()
+				" Thread " + Thread.currentThread().getId()
 				+ " is running");
 		}
 		catch (Exception e) {
